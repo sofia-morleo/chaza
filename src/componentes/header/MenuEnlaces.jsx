@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import '../../estilosgenerales.css'
 
 const MenuEnlaces = () => {
   return (
