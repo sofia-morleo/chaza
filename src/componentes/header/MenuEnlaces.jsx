@@ -6,10 +6,10 @@ const MenuEnlaces = () => {
   return (
     <>
         <ul>
-            <li><a href='#'>Categorias</a></li>
-            <li><a href='#'>Salones</a></li>
-            <li><a href='#'>Imagen Personal</a></li>
-            <li><a href='#'>Contacto</a></li>
+            <li><a href='#' className='quicksand'>Categorias</a></li>
+            <li><a href='#' className='quicksand'>Salones</a></li>
+            <li><a href='#'className='quicksand'>Imagen Personal</a></li>
+            <li><a href='#'className='quicksand'>Contacto</a></li>
         </ul>
     </>
     
