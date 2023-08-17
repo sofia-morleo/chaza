@@ -4,11 +4,14 @@ import MenuEnlaces from './MenuEnlaces'
 import '../../estilosgenerales.css'
 import './header.css'
 import Login from './login';
+import logoPortal from './img/logoPortal.png'/* llama a la imagen */
 
 const Encabezado = () => {
   return (
     <div className='header'>
-      <div className='quicksand'>PORTAL DE EVENTOS</div>
+      <img src= {logoPortal} alt=''/>
+
+      {/* <div className='quicksand'>PORTAL DE EVENTOS</div> */}
       <MenuEnlaces/>
       <Login/>
     </div>

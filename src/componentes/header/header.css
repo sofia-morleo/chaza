@@ -7,12 +7,18 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 60px;
     margin: auto;
     overflow: hidden;
     background-color: antiquewhite;
+    & img{
+        width: 260px;
+    }
+
 }
+
+
 .quicksand{
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
