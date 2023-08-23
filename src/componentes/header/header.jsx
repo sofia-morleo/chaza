@@ -10,10 +10,13 @@ const Encabezado = () => {
   return (
     <div className='header'>
       <img src= {logoPortal} alt=''/>
+      <div className="blanco"></div>
 
       {/* <div className='quicksand'>PORTAL DE EVENTOS</div> */}
-      <MenuEnlaces/>
+      
       <Login/>
+      
+      <MenuEnlaces/>
     </div>
   )
 }

@@ -18,7 +18,10 @@ li{
 
 }
 
-
+a{
+    font-family: 'quick';
+    text-decoration: none;
+}
 .quicksand{
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;

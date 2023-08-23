@@ -1,0 +1,12 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+}
+.lista_colum{
+    display: flex;
+    flex-direction: column;
+}
