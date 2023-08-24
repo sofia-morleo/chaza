@@ -2,7 +2,7 @@ import React from "react";
 import '../../estilosgenerales.css'
 import '../header/header'
 import './footer.css'
-import logoPortal from './img/logoPortal.png'
+import logoPortal from '../header/img/logoPortal.png'
 
 const PiePagina = () => {
     return(
