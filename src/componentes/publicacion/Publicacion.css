@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.publi {
+    height: 200px;
+    width: 100%;
+    background-color: rgb(64, 70, 70);
+    padding: 14px;
+    display: flex;
+
+    & .dato_publi {
+        height: 100%;
+        width: 65%;
+        background-color: rgb(28, 177, 177);
+
+        & .mi_zona {
+            padding: 0 10px;
+            background-color: rgb(241, 50, 168);
+            color: white;
+        }
+    }
+
+    & .imagen {
+        height: 100%;
+        width: 35%;
+        background-color: blueviolet;
+
+    }
+
+
+}
